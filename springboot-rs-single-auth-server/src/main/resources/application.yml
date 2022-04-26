@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://rtest.authz.cloudentity.io/rtest/ce-dev-playground-integrations
+
+logging:
+  level:
+    root: DEBUG
